@@ -1,0 +1,46 @@
+
+
+header{
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+
+nav{
+    color: white;
+    background-color: orange;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+a {
+    color: white;
+}
+
+main{
+    background-color: green;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+
+}
+
+
+
+article {
+    padding-top: 1px;
+    color: white;
+    background-color: blue;
+}
+
+.title {
+
+    padding-left: 10px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: rgb(179, 87, 179);
+    margin-top: -22px;
+}
