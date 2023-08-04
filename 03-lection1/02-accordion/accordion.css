@@ -8,7 +8,7 @@
 }
 
 .accordion__text {
-    margin-bottom: 0;
+    margin: 16px 0 8px;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
