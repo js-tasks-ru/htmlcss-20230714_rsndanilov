@@ -1,6 +1,10 @@
 .footer {
     background-color: var(--white);
     padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .footer__title {
@@ -9,7 +13,7 @@
     font-weight: 500;
     line-height: 48px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
     color: var(--black);
 }
 
@@ -21,4 +25,6 @@
     letter-spacing: 0em;
     text-align: center;
     color: var(--black);
+    width: 640px;
+    height: 94px;
 }

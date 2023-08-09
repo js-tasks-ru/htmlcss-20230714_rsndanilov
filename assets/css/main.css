@@ -1,8 +1,10 @@
 @import '../fonts/fonts.css';
-@import 'D:\GB учёба\Frontend\Курс HTML CSS\htmlcss-20230714_rsndanilov\components\page\page.css';
-@import 'D:\GB учёба\Frontend\Курс HTML CSS\htmlcss-20230714_rsndanilov\components\header\header.css';
-@import 'D:\GB учёба\Frontend\Курс HTML CSS\htmlcss-20230714_rsndanilov\components\main\main.css';
-@import 'D:\GB учёба\Frontend\Курс HTML CSS\htmlcss-20230714_rsndanilov\components\footer\footer.css';
+@import 'D:/GB учёба/Frontend/Курс HTML CSS/htmlcss-20230714_rsndanilov/components/header/header.css';
+@import 'D:/GB учёба/Frontend/Курс HTML CSS/htmlcss-20230714_rsndanilov/components/page/page.css';
+@import 'D:/GB учёба/Frontend/Курс HTML CSS/htmlcss-20230714_rsndanilov/components/preview/preview.css';
+@import 'D:/GB учёба/Frontend/Курс HTML CSS/htmlcss-20230714_rsndanilov/components/footer/footer.css';
+@import 'D:/GB учёба/Frontend/Курс HTML CSS/htmlcss-20230714_rsndanilov/components/container/container.css';
+@import 'D:/GB учёба/Frontend/Курс HTML CSS/htmlcss-20230714_rsndanilov/components/card/card.css';
 
 :root {
     --white: #ffffff;
@@ -26,4 +28,8 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    min-height: 100vh;
 }
