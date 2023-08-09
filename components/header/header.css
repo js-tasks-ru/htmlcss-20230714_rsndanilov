@@ -1,0 +1,13 @@
+.header {
+   background: var(--blue);
+
+}
+
+.header__title {
+    color: var(--blue);
+    font-family: 'Inter';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 64px;
+}
