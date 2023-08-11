@@ -18,6 +18,9 @@ figma: [https://www.figma.com/file/LavZmQfQccqyrTMzoSJYNu/csscourse1?node-id=171
     ```css
     .accordion__summary::-webkit-details-marker {  /* нестандартный псевдоэлемент Google Chrome */
         display: none;
+        border: 2px;
+        color: var(--grey-4);
+        rotation: -180 deg;
     }
     ```
 3. Между пунктами в аккордеоне есть внешние отступы, но у последнего пункта отступа вниз быть не должно. Решение этой проблемы может выглядеть так:
