@@ -1,9 +1,6 @@
 .calendar{
     width: 100%;
     max-width: 300%;
-    fill: var(--white);
-    stroke-width: 1px;
-    stroke: var(--gray-3, #ACB5BD);
     border-radius: 8px;
     border: 1px solid var( --grey-3);
 }
@@ -23,7 +20,6 @@
 .calendar__wrapper{
     padding-bottom: 100%;
     position: relative;
-    margin: 28px 30px 40px;
 }
 
 .calendar__inner{
@@ -34,7 +30,7 @@
     right: 0;
     bottom: 0;
     grid-template-columns: repeat(7, 1fr);
-    margin: 24px 30px 40px;
+    margin: 28px 26px 32px;
     row-gap: 16px;
 }
 
