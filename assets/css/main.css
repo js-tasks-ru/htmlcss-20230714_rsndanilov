@@ -1,4 +1,8 @@
 @import '../fonts/fonts.css';
+@import 'D:/GB учёба/Frontend/Курс HTML CSS/htmlcss-20230714_rsndanilov/components/header/header.css';
+@import 'components\page\page.css';
+@import 'components\preview\preview.css';
+@import 'components\footer\footer.css';
 
 :root {
     --white: #ffffff;
