@@ -1,6 +1,5 @@
 .footer {
     background-color: var(--white);
-    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
