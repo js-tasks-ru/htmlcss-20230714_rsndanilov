@@ -20,16 +20,15 @@
 
 .histogram__title {
     color: var(--black);
-    /* flex-basis: 90%;  */
     opacity: 0.8;
-    flex-basis: 50%;
 }
 
 .histogram__link {
     color: var(--blue-2);
     text-align: right;
-    flex-basis: 50%;
 }
+
+
 
 .histogram__numbers {
     color: var(--black, #212429);
