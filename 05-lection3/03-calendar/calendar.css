@@ -3,6 +3,8 @@
     max-width: 300%;
     border-radius: 8px;
     border: 1px solid var( --grey-3);
+    padding: 28px 26px 32px;
+
 }
 
 .calendar__title{
@@ -13,7 +15,6 @@
     font-weight: 600;
     line-height: 24px;
     text-align: center;
-    margin-top: 28px;
     margin-bottom: 24px;
 }
 
@@ -30,7 +31,6 @@
     right: 0;
     bottom: 0;
     grid-template-columns: repeat(7, 1fr);
-    margin: 28px 26px 32px;
     row-gap: 16px;
 }
 
