@@ -2,7 +2,6 @@
     display: inline-block;
     width: 102px;
     height: 102px;
-    flex-shrink: 0;
     border-radius: 50%;
     overflow: hidden;
   }
