@@ -1,0 +1,73 @@
+.form{
+    display: flex;
+    gap: 15px;
+  }
+  
+  .form__validation{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form__label{
+    color: var(--grey-3);
+    font-family: 'Inter';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; 
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  
+  .form__input{
+    width: 350px;
+    height: 56px;
+    background: var(--white);
+    border: 1px solid var(--grey-2);
+    border-radius: 10px;
+    color: var(--grey-4);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 27px;
+    padding-top: 17px;
+    padding-bottom: 13px;
+    box-sizing: border-box;
+  }
+  
+  .validation__wrapper{
+    position: relative;
+  }
+  
+  .validation__icon{
+    position: absolute;
+    top: 16px;
+    bottom: 16px;
+    left: 310px;
+    display: none;
+  }
+  
+  .form__input::placeholder{
+    color: var(--grey-2);
+  }
+  
+  .form__input:focus{
+    border: 1px solid var(--blue-2);
+    outline: var(--blue-2);
+  }
+  
+  .form__input_success ~ .validation__icon_success {
+    display: inline;
+  }
+  
+  .form__input_error:focus, .form__input_error{
+    border: 1px solid var(--red);
+    outline: var(--red);
+  }
+  
+  .form__input_error ~ .validation__icon_error{
+    display: inline;
+  }
