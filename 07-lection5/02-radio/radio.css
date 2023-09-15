@@ -20,12 +20,12 @@
 .radio__control{
     width: 28px;
     height: 28px;
-    border: 2px solid #DDE2E5;
+    border: 2px solid var(--grey-2);
     border-radius: 50px;
     justify-content: center;
     display: flex;
     align-items: center;
-    background: #fff;
+    background: var(--white);
 }
   
 .radio__icon{
@@ -35,8 +35,8 @@
 }
   
 .radio__title{
-    color: #495057;
-    font-family: Inter;
+    color: var(--grey-4);
+    font-family: 'Inter';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -44,12 +44,12 @@
 }
   
 .radio__input:checked ~ .radio__state .radio__control .radio__icon{
-    background: blue;
-    border-color: 2px solid blue;
+    background: var(--blue-2);
+    border-color: 2px solid var(--blue-2);
 }
   
 .radio__input:checked ~ .radio__state .radio__control{
-    border-color: blue;
+    border-color: var(--blue-2);
 }
   
   
@@ -58,10 +58,6 @@
 }
   
 .radio__input:disabled ~ .radio__state .radio__control{
-    background: #DDE2E5;
+    background: var(--grey-2);
 }
   
-.radiobutton{
-    display: inline-flex;
-    gap: 10px;
-}
