@@ -51,9 +51,6 @@
 .checkbox__input:disabled ~ .checkbox__state .checkbox__control{
     background-color: var(--grey-2);
     border-color: var(--grey-2);
+    pointer-events: none;
 }
   
-.checkboxes{
-    display: flex;
-    gap: 10px;
-}
