@@ -67,8 +67,3 @@
 .toggler__input:disabled ~ .toggler__state .toggler__icon{
     background: var(--grey-3);
 }
-  
-.togglers{
-    display: flex;
-    gap: 10px;
-}
