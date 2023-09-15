@@ -1,0 +1,31 @@
+.modal{
+    font-family: 'Inter';
+    font-style: normal;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100vw;
+    height: 100vh;
+    background-color: rgba(196, 196, 196, 0.5);
+    display: none;
+}
+
+.modal__container{
+    max-width: 400px; 
+    width: 100%;
+    padding: 30px 40px 30px 40px;
+    position: absolute;
+    background: var(--white);
+    border-radius: 8px;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.modal__cross{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
