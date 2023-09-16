@@ -1,0 +1,13 @@
+.preview {
+    background-color: var(--grey-5);
+    
+}
+
+.preview__cards{
+    gap: 30px;
+    padding: 68px 165px 204px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+

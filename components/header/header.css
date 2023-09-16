@@ -1,13 +1,15 @@
 .header {
-   background: var(--blue);
-
+    background-color: var(--white);
+    padding: 96px 0 77px;
 }
 
 .header__title {
-    color: var(--blue);
     font-family: 'Inter';
     font-size: 50px;
-    font-style: normal;
     font-weight: 500;
     line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--black);
+
 }
