@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <!-- Страница с полем ввода -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./input.css">
-    </head>
-    <body>
 
-    </body>
+<head>
+  <link rel="stylesheet" href="../../assets/css/main.css">
+  <link rel="stylesheet" href="./input.css">
+</head>
+
+<body>
+  <div class="form-group">
+    <label for="validationServer01" class="form-group__label">Label</label>
+    <input type="text" class="form-group__input" id="validationServer01" placeholder="Placeholder">
+  </div>
+
+  <div class="form-group">
+    <label for="validationServer02" class="form-group__label">SUCCESS</label>
+    <div class="form-group__wrapper">
+      <input type="text" class="form-group__input form-group__input_success" id="validationServer02" placeholder="Success">
+      <svg class="form-group__icon form-group__icon_success" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M15.663 3.77342C13.8902 2.98352 11.9096 2.78783 10.0166 3.21555C8.12351 3.64326 6.41942 4.67145 5.15845 6.14678C3.89749 7.62211 3.14721 9.46552 3.01951 11.4021C2.89181 13.3387 3.39354 15.2646 4.44987 16.8928C5.50619 18.5209 7.06051 19.764 8.88102 20.4365C10.7015 21.1091 12.6907 21.1752 14.5518 20.6249C16.413 20.0746 18.0464 18.9375 19.2084 17.3831C20.3705 15.8286 20.9989 13.9402 21 11.9994V11.08C21 10.5277 21.4477 10.08 22 10.08C22.5523 10.08 23 10.5277 23 11.08V12C22.9986 14.3721 22.2306 16.6807 20.8103 18.5806C19.39 20.4804 17.3936 21.8703 15.1189 22.5428C12.8442 23.2154 10.413 23.1346 8.18792 22.3126C5.96285 21.4906 4.06312 19.9713 2.77206 17.9813C1.48099 15.9914 0.86777 13.6374 1.02384 11.2705C1.17992 8.90358 2.09693 6.65052 3.63811 4.84734C5.17929 3.04416 7.26206 1.78748 9.57581 1.26472C11.8896 0.74196 14.3103 0.981129 16.477 1.94656C16.9815 2.17134 17.2082 2.76252 16.9834 3.26699C16.7587 3.77146 16.1675 3.9982 15.663 3.77342Z"
+          fill="#374FC7" />
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M22.7068 3.29254C23.0975 3.68287 23.0978 4.31603 22.7075 4.70675L12.7075 14.7168C12.52 14.9044 12.2656 15.0099 12.0002 15.01C11.7349 15.0101 11.4805 14.9047 11.2929 14.7171L8.29289 11.7171C7.90237 11.3266 7.90237 10.6934 8.29289 10.3029C8.68342 9.91237 9.31658 9.91237 9.70711 10.3029L11.9996 12.5954L21.2925 3.29325C21.6829 2.90253 22.316 2.90221 22.7068 3.29254Z"
+          fill="#374FC7" />
+      </svg>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="validationServer03" class="form-group__label">ERROR</label>
+    <div class="form-group__wrapper">
+      <input type="text" class="form-group__input form-group__input_error" id="validationServer03" placeholder="Error">
+      <svg class="form-group__icon form-group__icon_error" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M10.29 3.86001L1.82 18C1.64537 18.3024 1.55296 18.6453 1.55199 18.9945C1.55101 19.3437 1.64149 19.6871 1.81442 19.9905C1.98736 20.2939 2.23672 20.5468 2.53771 20.7239C2.83869 20.901 3.1808 20.9962 3.53 21H20.47C20.8192 20.9962 21.1613 20.901 21.4623 20.7239C21.7633 20.5468 22.0126 20.2939 22.1856 19.9905C22.3585 19.6871 22.449 19.3437 22.448 18.9945C22.447 18.6453 22.3546 18.3024 22.18 18L13.71 3.86001C13.5317 3.56611 13.2807 3.32313 12.9812 3.15449C12.6817 2.98585 12.3437 2.89726 12 2.89726C11.6563 2.89726 11.3183 2.98585 11.0188 3.15449C10.7193 3.32313 10.4683 3.56611 10.29 3.86001V3.86001Z"
+          stroke="#F03D3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M12 9V13" stroke="#F03D3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M12 16V16.5" stroke="#F03D3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </div>
+  </div>
+</body>
+
 </html>
