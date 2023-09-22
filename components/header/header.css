@@ -13,3 +13,9 @@
     color: var(--black);
 
 }
+
+.header__page{
+    grid-area: header;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}

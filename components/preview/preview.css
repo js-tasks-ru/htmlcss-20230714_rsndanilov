@@ -11,3 +11,7 @@
     justify-content: center;
 }
 
+.preview__page{
+    grid-area: main;
+    background-color: var(--white);
+}
