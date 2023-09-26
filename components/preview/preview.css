@@ -11,7 +11,7 @@
     justify-content: center;
 }
 
-.preview__page{
+.preview_page{
     grid-area: main;
     background-color: var(--white);
 }
