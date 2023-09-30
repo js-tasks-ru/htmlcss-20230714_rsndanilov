@@ -1,9 +1,31 @@
 .card{
-    width: 350px;
-    height: 367px;
-    border-radius: 12px;
-    background: #FFF;
-    box-shadow: 0px 2px 4px 0px rgba(33, 36, 41, 0.05);
-    flex-shrink: 0;
-    flex-basis: 30%;
+    box-shadow: 0 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 0.75rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
 }
+
+.card__body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.card__footer{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__title{
+    font-size: 21px;
+    margin-bottom: 2px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre;
+}
+

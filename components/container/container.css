@@ -2,3 +2,10 @@
     max-width: 1110px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 768px){
+    .container {
+        max-width: 591px;
+        margin: 0 auto;
+    }
+}
