@@ -11,5 +11,14 @@
     margin: 1.5rem 0;
 }
 
+@media screen and (max-width: 768px){
+    .preview__cards{
+        grid-template-rows: 100%;
+        grid-template-columns: 100%;
+        grid-gap: 16px;
+        margin: 0 16px;
+    }
+}
+
 
 
