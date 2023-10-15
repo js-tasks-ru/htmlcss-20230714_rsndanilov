@@ -4,10 +4,21 @@
 }
 
 .preview__cards{
-    gap: 30px;
-    padding: 68px 165px 204px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, calc(33.3333% - 15px));
+    grid-template-rows: repeat(auto-fill, minmax(350px, auto)); 
+    grid-gap: 30px;
+    margin: 1.5rem 0;
 }
+
+@media screen and (max-width: 768px){
+    .preview__cards{
+        grid-template-rows: 100%;
+        grid-template-columns: 100%;
+        grid-gap: 16px;
+        margin: 0 16px;
+    }
+}
+
+
 
